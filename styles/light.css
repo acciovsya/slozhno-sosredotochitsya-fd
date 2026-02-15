@@ -25,4 +25,12 @@
   .decorated-zone::after {
     --accent-color: var(--text-color);
   }
+
+  .section__title {
+    --accent-color: var(--text-color);
+  }
+
+  .section__block-title {
+    --bg-color: var(--text-color);
+  }
 }

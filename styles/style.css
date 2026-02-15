@@ -70,6 +70,11 @@
   border: 1px solid var(--accent-color);
 }
 
+.header__theme-menu-button:focus-visible {
+  outline: none;
+  border-block-end: 1px solid var(--accent-color);
+}
+
 .title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
@@ -84,6 +89,7 @@
   align-self: start;
   color: var(--bg-color);
   background-color: var(--accent-color);
+  margin-block-end: 30px;
 }
 
 .decorated-zone {
@@ -137,14 +143,14 @@
   gap: 10px;
 }
 
-.section__block_title {
+.section__block-title {
   font-size: inherit;
   line-height: inherit;
   background-color: var(--accent-color);
   color: var(--bg-color);
 }
 
-.section__block_text {
+.section__block-text {
   color: var(--text-color);
 }
 
@@ -152,7 +158,9 @@
   font-weight: normal;
 }
 
-/* тут будут стили секции с картинками */
+.image {
+  width: 100%;
+}
 
 .footer {
   display: flex;
@@ -164,4 +172,17 @@
 
 .footer__title {
   text-shadow: 2px 2px var(--accent-color);
+}
+
+.decorated-link {
+  text-shadow: 2px 1px var(--accent-color);
+  text-decoration: none;
+}
+
+.decorated-link:hover {
+  text-decoration: underline;
+}
+
+.decorated-link:focus-visible {
+  outline: 1px solid var(--text-color);
 }
