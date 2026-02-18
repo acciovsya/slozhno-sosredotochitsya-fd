@@ -1,11 +1,5 @@
 :root {
-  --bg-image: url(../images/cover-image-dark.png);
-  --bg-color: #000028;
-  --accent-color: #ff0070;
-  --accent-color-fade: rgb(255 0 112 / 0.4);
-  --text-color: #f1b2ce;
-  --text-title-color: #db00ff;
-
-  --special-elemets-visibility: visible;
+  --special-elements-visibility: visible;
   --page-spacing: 40px;
+  --page-padding: 10px;
 }
