@@ -2,4 +2,6 @@
   --special-elements-visibility: visible;
   --page-spacing: 40px;
   --page-padding: 10px;
+  --full-height: 100vh;
+  --regular-font-size: 1.125rem;
 }

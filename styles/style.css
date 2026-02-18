@@ -12,7 +12,7 @@
 .header {
   padding: var(--page-padding);
   display: grid;
-  height: 100vh;
+  height: var(--full-height);
   min-height: 668px;
 }
 
@@ -24,7 +24,7 @@
   justify-self: end;
   margin-right: 28px;
   color: var(--accent-color);
-  font-size: 1.125rem;
+  font-size: var(--regular-font-size);
   line-height: 25px;
 }
 
@@ -59,7 +59,7 @@
   padding-inline: 13px;
   padding-block-end: 4px;
   color: var(--accent-color);
-  font-size: 1.125rem;
+  font-size: var(--regular-font-size);
   line-height: 1em;
   text-transform: lowercase;
   background-color: transparent;
@@ -96,7 +96,7 @@
   align-self: start;
   color: var(--bg-color);
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: var(--regular-font-size);
   line-height: 1.3em;
   background-color: var(--accent-color);
 }
@@ -132,7 +132,7 @@
   display: grid;
   padding-inline: var(--page-padding);
   gap: 50px;
-  font-size: 1.125rem;
+  font-size: var(--regular-font-size);
   line-height: 23.4px;
 }
 
@@ -190,7 +190,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: var(--full-height);
   min-height: 668px;
 }
 
