@@ -258,6 +258,7 @@
   .section-introduction > .section__block,
   .section-tips > .section__block {
     grid-column: 2 / -1;
+    padding-inline-start: 5px; /* для соответствия макету */
   }
 
   .section-reasons > .section__block {
@@ -337,6 +338,11 @@
 
   .section-reasons > .section__block {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section-introduction > .section__block,
+  .section-tips > .section__block {
+    padding-inline-start: 0;
   }
 
   .footer {
